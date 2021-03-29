@@ -1,0 +1,19 @@
+https://evrone.com/cryptontrading
+
+https://overflow.io/
+
+Information: Moln, Första världskriget, Reggae, trädarter, olika arter, sveriges djur, Sveriges vilt
+
+Favoritidé: Sveriges viltarter. Färgdesign: grön, mörk och jordig. Se länk: https://coolors.co/9eadc8-678d58-a6c48a-0d0a0b-00241b 
+
+Liknande sidor: https://jaktlivet.se/viltarter/ 
+
+Design: Header som det står: “Sveriges Vilt”
+
+Det finns elva viltarter i sverige, därmed elva rutor som tar upp sidan. klickar man på rutan kommer man till en sida med information kring djuret.
+
+Sidan är riktad mot jägare och vuxna, men inte forskare
+
+Använd pappas bilder
+
+Fråga peter om vad man ska använda javascript till

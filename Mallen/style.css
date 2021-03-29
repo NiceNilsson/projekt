@@ -1,0 +1,9 @@
+/*--------------Huvudinställningar---------------*/
+
+
+.gridholder{
+    background-color: 9EADC8;
+    color: A6C48A;
+
+    display: grid;
+}
