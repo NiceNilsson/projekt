@@ -1,9 +1,54 @@
 /*--------------Huvudinställningar---------------*/
 
+html, body {
+    box-sizing: border-box;
+    background-color: #ffeead;
+    height: 100%;
+    padding: 10px;
+    margin: 0px;
+  }
 
-.gridholder{
+.container{
+    height: 100%;
+    display: grid;
+    grid-gap: 3px;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 40px, auto, 40px;
+    grid-template-areas:
+        "H H H H H H H H H H H H"
+        ". . C C C C C C C C . ."
+        "F F F F F F F F F F F F";
+}
+
+.header{
     background-color: 9EADC8;
     color: A6C48A;
 
     display: grid;
+    grid-area: H;
+}
+
+.nav{
+   display: grid; 
+   grid-area: N;
+}
+
+.content{
+    display: grid;
+    grid-area: C;
+}
+
+.footer{
+    display: grid;
+    grid-area: F;
+}
+
+.margin1{
+    display: grid;
+    grid-area: M1;
+}
+
+.margin1{
+    display: grid;
+    grid-area: M2;
 }
