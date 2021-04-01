@@ -8,44 +8,40 @@ html, body {
     background-color: #A6C48A;
   }
 
-/*   html{
-    overflow-y: scroll;
-  }
+/*----------------Bildformatering----------------------*/
 
-  body {
-    position: absolute;
-  } */
+.viltbbbbbdjur {
+  display: grid;
+  grid-column: span;
+  grid-row: span;
+}
 
-  .container > div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 2em;
-  }
+.pics {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 500px );
+}
+
+/*----------------Mallen------------------------*/
+.container > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+}
 
 .container{
-    height: 100%;
+  height: 100%;
 
-    display: grid;
-    grid-gap: 3px;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: 30px, 10px, auto, 30px;
-    grid-template-areas:
-        "H H H H H H H H H H H H"
-        "N N N N N N N N N N N N"
-        ". C C C C C C C C C C ."
-        ". C C C C C C C C C C ."
-        ". C C C C C C C C C C ."
-        ". C C C C C C C C C C ."
-        ". C C C C C C C C C C ."
-        ". C C C C C C C C C C ."
-        ". C C C C C C C C C C ."
-        ". C C C C C C C C C C ."
-        ". C C C C C C C C C C ."
-        ". C C C C C C C C C C ."
-        ". C C C C C C C C C C ."
-        ". C C C C C C C C C C ."
-        "F F F F F F F F F F F F";
+  display: grid;
+  grid-gap: 3px;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 30px, 10px, auto, 30px;
+  grid-template-areas:
+    "H H H H H H H H H H H H"
+    "N N N N N N N N N N N N"
+    ". C C C C C C C C C C ."
+    ". C C C C C C C C C C ."
+    "F F F F F F F F F F F F";
 }
 
 .header{
@@ -68,7 +64,7 @@ html, body {
     background-color: #678D58;
     color: #0D0A0B;
 
-    display: grid;
+    /* display: grid; */
     grid-area: C;
 }
 
