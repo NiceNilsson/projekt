@@ -1,24 +1,24 @@
 /*--------------Huvudinställningar---------------*/
 
 html, body {
-    box-sizing: border-box;
-    height: 100%;
-    padding: 10px;
-    margin: 0px;
-    background-color: #A6C48A;
-  }
+  box-sizing: border-box;
+  height: 100%;
+  margin: 0px;
+  background-color: #FDFFFC;
+  text-shadow: 1px 1px 5px;
+}
 
 /*----------------Bildformatering----------------------*/
 
-.viltbbbbbdjur {
-  display: grid;
-  grid-column: span;
-  grid-row: span;
-}
-
 .pics {
   display: grid;
-  grid-template-columns: repeat(auto-fill, 500px );
+  grid-template-columns: repeat(auto-fill, 300px );
+  
+  gap: 1rem 5rem;
+  width: 100%;
+  justify-content: center;
+  margin-top: 30px;
+  
 }
 
 /*----------------Mallen------------------------*/
@@ -27,51 +27,52 @@ html, body {
   justify-content: center;
   align-items: center;
   font-size: 2em;
+  /*box-shadow: 3px -2px 2px #0D0A0B;*/
 }
 
 .container{
   height: 100%;
-
+  
   display: grid;
-  grid-gap: 3px;
+  grid-gap: 8px;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: 30px, 10px, auto, 30px;
   grid-template-areas:
-    "H H H H H H H H H H H H"
-    "N N N N N N N N N N N N"
-    ". C C C C C C C C C C ."
-    ". C C C C C C C C C C ."
-    "F F F F F F F F F F F F";
+  "H H H H H H H H H H H H"
+  "N N N N N N N N N N N N"
+  ". C C C C C C C C C C ."
+  ". C C C C C C C C C C ."
+  "F F F F F F F F F F F F";
 }
 
 .header{
-    background-color: #9EADC8;
-    color: #0D0A0B;
-
-    display: grid;
-    grid-area: H;
+  background-color: #FDFFFC;
+  color: #0D0A0B;
+  
+  display: grid;
+  grid-area: H;
+  border-bottom: 0.5px solid black;
 }
 
 .nav{
-    background-color: #678D58;
-    color: #0D0A0B;
-
-   display: grid; 
-   grid-area: N;
+  background-color: #FDFFFC;
+  color: #0D0A0B;
+  
+  display: grid; 
+  grid-area: N;
+  border-bottom: 0.5px solid black;
 }
 
 .content{
-    background-color: #678D58;
-    color: #0D0A0B;
-
-    /* display: grid; */
-    grid-area: C;
+  background-color: #FDFFFC;
+  color: #0D0A0B;
+  
+  grid-area: C;
 }
 
 .footer{
     background-color: #00241B;
     color: #0D0A0B;
 
-    display: grid;
     grid-area: F;
 }
