@@ -5,7 +5,7 @@ html, body {
   height: 100%;
   margin: 0px;
   background-color: #FDFFFC;
-  text-shadow: 1px 1px 5px;
+  font-family: Helvetica, arial, sans-serif
 }
 
 /*----------------Bildformatering----------------------*/
@@ -18,7 +18,10 @@ html, body {
   width: 100%;
   justify-content: center;
   margin-top: 30px;
-  
+}
+
+.viltdjur {
+  border: 1px solid black;
 }
 
 /*----------------Mallen------------------------*/
@@ -29,6 +32,7 @@ html, body {
   font-size: 2em;
   /*box-shadow: 3px -2px 2px #0D0A0B;*/
 }
+
 
 .container{
   height: 100%;
@@ -68,11 +72,13 @@ html, body {
   color: #0D0A0B;
   
   grid-area: C;
+  text-align: center;
 }
 
 .footer{
-    background-color: #00241B;
-    color: #0D0A0B;
-
-    grid-area: F;
+  background-color: #00241B;
+  color: #0D0A0B;
+  
+  grid-area: F;
 }
+
