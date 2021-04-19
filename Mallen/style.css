@@ -24,13 +24,29 @@ html, body {
   border: 1px solid black;
 }
 
+figcaption {
+  font-weight: bold;
+  background-color: white;
+  font-family: Helvetica, arial, sans-serif;
+  border-radius: 3px;
+  border: 2px solid black;
+  }
+
+/*Länkar*/
+
+a {
+  color: black;
+  text-decoration-line: none;
+}
+
+
+
 /*----------------Mallen------------------------*/
 .container > div {
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 2em;
-  /*box-shadow: 3px -2px 2px #0D0A0B;*/
 }
 
 
