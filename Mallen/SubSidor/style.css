@@ -1,0 +1,98 @@
+/*--------------Huvudinställningar---------------*/
+
+html, body {
+    box-sizing: border-box;
+    height: 100%;
+    margin: 0px;
+    background-color: #FDFFFC;
+    font-family: Helvetica, arial, sans-serif
+  }
+  
+  /*----------------Bildformatering----------------------*/
+  
+  .pics {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 300px );
+    
+    gap: 1rem 5rem;
+    width: 100%;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  
+
+
+/*Länkar*/
+
+a {
+    color: black;
+    text-decoration-line: none;
+}
+
+.pics a:hover figcaption {
+  color: white;
+  background: #000;
+}  
+  
+  /*----------------Mallen------------------------*/
+  .container > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+  }
+  
+  
+  .container{
+    height: 100%;
+    
+    display: grid;
+    grid-gap: 8px;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 30px, 10px, auto, 30px;
+    grid-template-areas:
+    "H H H H H H H H H H H H"
+    "N N N N N N N N N N N N"
+    ". C C C C C C C C C C ."
+    ". C C C C C C C C C C ."
+    "F F F F F F F F F F F F";
+  }
+  
+  .header{
+    background-color: #FDFFFC;
+    color: #0D0A0B;
+    
+    display: grid;
+    grid-area: H;
+    border-bottom: 0.5px solid black;
+    height: 100px;
+  }
+  
+  .nav{
+    background-color: #FDFFFC;
+    color: #0D0A0B;
+    
+    display: grid; 
+    grid-area: N;
+    border-bottom: 0.5px solid black;
+    height: 50px;
+    padding-top: 0px;
+  }
+  
+  .content{
+    background-color: #FDFFFC;
+    color: #0D0A0B;
+    
+    grid-area: C;
+    text-align: center;
+    padding-bottom: 0px;
+  }
+  
+  .footer{
+    background-color: #00241B;
+    color: #0D0A0B;
+    
+    grid-area: F;
+  }
+  
+  
