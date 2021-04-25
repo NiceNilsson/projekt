@@ -5,8 +5,9 @@ html, body {
     height: 100%;
     margin: 0px;
     background-color: #FDFFFC;
-    font-family: Helvetica, arial, sans-serif
+    font-family: Helvetica, arial, sans-serif;
   }
+
   
   /*----------------Bildformatering----------------------*/
   
@@ -49,12 +50,12 @@ a {
     display: grid;
     grid-gap: 8px;
     grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: 30px, 10px, auto, 30px;
+    grid-template-rows: auto, 50px, auto, auto, 30px;
     grid-template-areas:
     "H H H H H H H H H H H H"
     "N N N N N N N N N N N N"
-    ". C C C C C C C C C C ."
-    ". C C C C C C C C C C ."
+    ". C C C C C C C C C C ."    
+    ". C C C C C C C C C C ."    
     "F F F F F F F F F F F F";
   }
   
@@ -75,8 +76,8 @@ a {
     display: grid; 
     grid-area: N;
     border-bottom: 0.5px solid black;
-    height: 50px;
-    padding-top: 0px;
+    height: 100%;
+    width: auto;
   }
   
   .content{
