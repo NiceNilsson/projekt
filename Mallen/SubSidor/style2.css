@@ -6,6 +6,7 @@ html, body {
     margin: 0px;
     background-color: #FDFFFC;
     font-family: Helvetica, arial, sans-serif;
+    overflow-y: scroll;
   }
 
   
@@ -30,14 +31,9 @@ a {
     text-decoration-line: none;
 }
 
-.pics a:hover figcaption {
-  color: white;
-  background: #000;
-}  
   
   /*----------------Mallen------------------------*/
   .container > div {
-    display: flex;
     justify-content: center;
     align-items: center;
     font-size: 2em;
@@ -50,7 +46,7 @@ a {
     display: grid;
     grid-gap: 8px;
     grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: auto, 50px, auto, auto, 30px;
+    grid-template-rows: auto auto auto auto;
     grid-template-areas:
     "H H H H H H H H H H H H"
     "N N N N N N N N N N N N"
@@ -76,8 +72,30 @@ a {
     display: grid; 
     grid-area: N;
     border-bottom: 0.5px solid black;
-    height: 90px;
+    height: 40px;
     width: auto;
+  }
+
+  .links:last-of-type{
+    border-right: none;
+  }
+  
+  .links{
+    list-style-type: none;
+    display: inline;
+    border-right: 0.5px solid black;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    list-style-type: none;
+    display: inline;
   }
   
   .content{
@@ -85,13 +103,14 @@ a {
     color: #0D0A0B;
     
     grid-area: C;
-    text-align: center;
+    text-align: left;
     padding-bottom: 1px;
   }
   
   .footer{
     background-color: #00241B;
-    color: #0D0A0B;
+    color: #FDFFFC;
+    text-align: center;
     
     grid-area: F;
   }

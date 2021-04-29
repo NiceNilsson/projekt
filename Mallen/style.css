@@ -5,7 +5,8 @@ html, body {
   height: 100%;
   margin: 0px;
   background-color: #FDFFFC;
-  font-family: Helvetica, arial, sans-serif
+  font-family: Helvetica, arial, sans-serif;
+  overflow-y: scroll;
 }
 
 /*----------------Bildformatering----------------------*/
@@ -48,7 +49,6 @@ a {
 
 /*----------------Mallen------------------------*/
 .container > div {
-  display: flex;
   justify-content: center;
   align-items: center;
   font-size: 2em;
@@ -61,7 +61,7 @@ a {
   display: grid;
   grid-gap: 8px;
   grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: 30px, 10px, auto, 30px;
+  grid-template-rows: auto auto auto auto;
   grid-template-areas:
   "H H H H H H H H H H H H"
   "N N N N N N N N N N N N"
@@ -87,10 +87,11 @@ a {
   display: grid; 
   grid-area: N;
   border-bottom: 0.5px solid black;
-  height: 50px;
+  height: 40px;
   width: auto;
   padding-top: 0px;
 }
+
 
 .content{
   background-color: #FDFFFC;
@@ -98,13 +99,15 @@ a {
   
   grid-area: C;
   text-align: center;
-  padding-bottom: 1px;
+  padding-bottom: 50px;
+  padding-top: 10px;
 }
 
 .footer{
   background-color: #00241B;
-  color: #0D0A0B;
+  color: #FDFFFC;
   
   grid-area: F;
+  text-align: center;
 }
 
