@@ -4,7 +4,6 @@ html, body {
   box-sizing: border-box;
   height: 100%;
   margin: 0px;
-  background-color: #FDFFFC;
   font-family: Helvetica, arial, sans-serif;
   overflow-y: scroll;
 }
@@ -26,9 +25,6 @@ html, body {
   background: #000;
 }
 
-.viltdjur {
-  border: 1px solid black;
-}
 
 figcaption {
   font-weight: bold;
@@ -36,7 +32,8 @@ figcaption {
   font-family: Helvetica, arial, sans-serif;
   border-radius: 3px;
   border: 2px solid black;
-  }
+  text-align: center;
+}
 
 /*Länkar*/
 
@@ -45,6 +42,60 @@ a {
   text-decoration-line: none;
 }
 
+/*Sidebar*/
+
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: black !important;
+  overflow-x: hidden;
+  padding-top: 50px;
+  transition: 0.3s;
+}
+
+.sidebar a{
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #FDFFFC;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: lightgreen;
+}
+
+.sidebar .exit {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 35px;
+  margin-left: 50px;
+}
+
+.open {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: white;
+  color: #000;
+  padding: 10px 15px;
+  border: none;
+}
+
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 20px;
+}
 
 
 /*----------------Mallen------------------------*/
@@ -57,6 +108,7 @@ a {
 
 .container{
   height: 100%;
+  background-color: white;
   
   display: grid;
   grid-gap: 8px;
@@ -79,7 +131,7 @@ a {
   border-bottom: 0.5px solid black;
   height: 100px;
 }
-
+/*Nav*/
 .nav{
   background-color: #FDFFFC;
   color: #0D0A0B;
@@ -92,15 +144,36 @@ a {
   padding-top: 0px;
 }
 
+.links{
+  list-style-type: none;
+  display: inline;
+  border-right: 0.5px solid black;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+  display: inline;
+}
 
 .content{
   background-color: #FDFFFC;
   color: #0D0A0B;
   
   grid-area: C;
-  text-align: center;
+  text-align: left;
   padding-bottom: 50px;
   padding-top: 10px;
+}
+
+.viltdjur {
+  border: 1px solid black;
 }
 
 .footer{
@@ -110,4 +183,5 @@ a {
   grid-area: F;
   text-align: center;
 }
+
 
