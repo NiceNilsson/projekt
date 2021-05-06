@@ -1,11 +1,14 @@
 /*--------------Huvudinställningar---------------*/
 
+html{
+  overflow-y: scroll;
+}
+
 html, body {
   box-sizing: border-box;
   height: 100%;
   margin: 0px;
   font-family: Helvetica, arial, sans-serif;
-  overflow-y: scroll;
 }
 
 /*----------------Bildformatering----------------------*/
@@ -110,12 +113,13 @@ a {
 
 .container{
   height: 100%;
+  min-height: 100vh;
   background-color: white;
   
   display: grid;
   grid-gap: 8px;
   grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: auto auto auto auto;
+  grid-template-rows: auto auto 1fr auto;
   grid-template-areas:
   "H H H H H H H H H H H H"
   "N N N N N N N N N N N N"
