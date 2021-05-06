@@ -143,9 +143,10 @@ a {
   display: grid; 
   grid-area: N;
   border-bottom: 0.5px solid black;
-  height: 40px;
+  height: auto;
   width: auto;
   padding-top: 0px;
+  text-align: center;
 }
 
 .links{
@@ -159,6 +160,10 @@ a {
 ul {
   margin: 0;
   padding: 0;
+}
+
+ul :last-of-type{
+  border-right: none;
 }
 
 li {

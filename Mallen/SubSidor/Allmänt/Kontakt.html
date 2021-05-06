@@ -6,28 +6,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="/Mallen/style.css">
+    <script src="/Mallen/nav.js"></script>
 </head>
 <body>
-<div class="container">
-    <div class="header"><a href="/Mallen/index.html"><h3>Sveriges Vilt</h3></a></div>
-    <div class="nav"><ul>
-        <div class="links">
-            <li>Vilddjur</li>
-        </div>
-        <div class="links">
-            <a href="/Mallen/SubSidor/Allmänt/Jakttider.html"><li>Jakttider</li></a>
-        </div>
-        <div class="links">
-            <a href="/Mallen/SubSidor/Allmänt/Historia.html"><li>Historia</li></a>
-        </div>
-        <div class="links">
-            <a href="/Mallen/SubSidor/Allmänt/Kontakt.html"><li>Kontakt</li></a>
-        </div>
-    </ul></div>
 
-    <div class="content">
-        <div class="subheader"><h3>Vildjuret</h3></div>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo placeat, officiis aut blanditiis assumenda doloribus et? </p>
+    <div id="TheSidebar" class="sidebar">
+        <a href="javascript:void(0)" class="exit" onclick="closeNav()">&times;</a>
+        <a href="/Mallen/SubSidor/mall.html">Lodjur</a>
+    </div>
+
+<div id="main">
+
+    <div class="container">
+        <div class="header"><a href="/Mallen/index.html"><h3>Sveriges Vilt</h3></a></div>
+        <div class="nav"><ul>
+            <div class="links">
+                <button class="open" onclick="openNav()">&#9776; Viltdjur</button>
+            </div>
+            <div class="links">
+                <a href="/Mallen/SubSidor/Allmänt/Jakttider.html"><li>Jakttider</li></a>
+            </div>
+            <div class="links">
+                <a href="/Mallen/SubSidor/Allmänt/Historia.html"><li>Historia</li></a>
+            </div>
+            <div class="links">
+                <a href="/Mallen/SubSidor/Allmänt/Kontakt.html"><li>Kontakt</li></a>
+            </div>
+        </ul></div>
+        
+        <div class="content">
+            <div class="subheader"><h3>Vildjuret</h3></div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo placeat, officiis aut blanditiis assumenda doloribus et? </p>
             <div class="Viltdjur">
                 <picture>
                     <source 
@@ -43,14 +52,15 @@
                     media="(min-width: 200px)"
                     alt="Lodjur"
                     />
-                    </picture>
-                  </div>
-                    <p>
-                    Necessitatibus, hic nobis. Ipsam consequatur voluptatum aut accusantium? Sapiente commodi omnis a iure tempore!
-                    </p>
-
+                </picture>
+            </div>
+            <p>
+                Necessitatibus, hic nobis. Ipsam consequatur voluptatum aut accusantium? Sapiente commodi omnis a iure tempore!
+            </p>
+            
+        </div>
+        <div class="footer">FOOTER</div>
     </div>
-    <div class="footer">FOOTER</div>
 </div>
 </body>
 </html>
