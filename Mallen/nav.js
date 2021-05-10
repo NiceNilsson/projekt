@@ -1,14 +1,3 @@
-
-
-/*function toggleNav(){
-    navSize = document.getElementById("TheSidebar").style.width;
-    if (navSize == 180) {
-        return closeNav();
-    }
-    return openNav();
-}*/
-
-
 function openNav() {
     var e = document.getElementById("TheSidebar");
     if (e.style.width == "180px")   

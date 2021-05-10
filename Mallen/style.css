@@ -87,15 +87,10 @@ a {
   font-size: 29px;
   font-family: Helvetica, Arial, sans-serif;
   cursor: pointer;
-  background-color: white;
-  color: #000;
+  background-color: black;
+  color: white;
   border: none;
   display: inline;
-}
-
-@media screen and (max-height: 450px) {
-  .sidebar {padding-top: 15px;}
-  .sidebar a {font-size: 18px;}
 }
 
 #main {
@@ -134,19 +129,17 @@ a {
   
   display: grid;
   grid-area: H;
-  border-bottom: 0.5px solid black;
   height: 100px;
 }
 
 /*Nav*/
 
 .nav{
-  background-color: #FDFFFC;
-  color: #0D0A0B;
+  background-color: black;
+  color: white;
   
   display: grid; 
   grid-area: N;
-  border-bottom: 0.5px solid black;
   height: auto;
   width: auto;
   padding-top: 0px;
@@ -156,9 +149,13 @@ a {
 .links{
   list-style-type: none;
   display: inline;
-  border-right: 0.5px solid black;
+  border-right: 0.5px solid white;
   margin-left: 5px;
   margin-right: 5px;
+}
+
+.links :hover{
+  color: lightgreen;
 }
 
 ul {
@@ -171,10 +168,24 @@ ul :last-of-type{
 }
 
 li {
+  color: white;
   list-style-type: none;
   display: inline;
   font-size: 29px;
 }
+
+@media screen and (max-width: 600px) {
+  .nav a{
+    float: none;
+    border: none;
+  }
+  .links{
+    border: none;
+  }
+}
+
+
+/*Resten*/
 
 .content{
   background-color: #FDFFFC;
