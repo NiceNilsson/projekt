@@ -184,6 +184,31 @@ li {
   }
 }
 
+/*tables*/
+
+table{
+  width: 70%;
+}
+
+.contentjakt{
+  background-color: #FDFFFC;
+  color: #0D0A0B;
+  
+  grid-area: C;
+  text-align: left;
+  padding-bottom: 50px;
+  padding-top: 10px;
+  padding-left: 38%;
+}
+
+.contentjakt a:hover{
+  color: darkgreen;
+}
+
+.contentjakt p{
+  width: 70%;
+  font-size: 20px;
+}
 
 /*Resten*/
 
@@ -196,6 +221,29 @@ li {
   padding-bottom: 50px;
   padding-top: 10px;
 }
+
+/*Copyright*/
+
+.contentcopy{
+  background-color: #FDFFFC;
+  color: #0D0A0B;
+  
+  grid-area: C;
+  text-align: left;
+  padding-bottom: 50px;
+  padding-top: 10px;
+}
+
+.contentcopy li{
+  color: white;
+  display: list-item;
+  font-size: 29px;
+}
+
+.contentcopy a:hover{
+  color: darkgreen;
+}
+
 
 .viltdjur {
   border: 1px solid black;
