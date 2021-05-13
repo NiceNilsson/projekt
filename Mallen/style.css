@@ -149,13 +149,16 @@ a {
 .links{
   list-style-type: none;
   display: inline;
-  border-right: 0.5px solid white;
   margin-left: 5px;
   margin-right: 5px;
 }
 
 .links :hover{
   color: lightgreen;
+}
+
+.links a {
+  color: white;
 }
 
 ul {
