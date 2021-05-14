@@ -23,13 +23,13 @@ html, body {
   margin-top: 30px;
 }
 
-.pics a:hover figcaption {
+.pics a:hover .figcaption {
   color: lightgreen;
   background: #000;
 }
 
 
-figcaption {
+.figcaption {
   font-weight: bold;
   background-color: white;
   font-family: Helvetica, arial, sans-serif;
@@ -161,6 +161,13 @@ a {
   color: white;
 }
 
+.links li{
+  list-style-type: none;
+  display: inline;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
 ul {
   margin: 0;
   padding: 0;
@@ -217,7 +224,6 @@ table{
 
 .content{
   background-color: #FDFFFC;
-  color: #0D0A0B;
   
   grid-area: C;
   text-align: left;
@@ -251,6 +257,7 @@ table{
 .viltdjur {
   border: 1px solid black;
 }
+/*footer*/
 
 .footer{
   background-color: #00241B;
@@ -261,3 +268,10 @@ table{
 }
 
 
+.footer a{
+  color: white;
+}
+
+.footer a:hover{
+  color: lightgreen;
+}
