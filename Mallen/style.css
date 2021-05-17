@@ -201,12 +201,15 @@ li {
   p{
     font-size: medium;
   }
+  table{
+    font-size: medium;
+  }
 }
 
 /*tables*/
 
 table{
-  width: 70%;
+  width: 100%;
 }
 
 .contentjakt{
@@ -217,7 +220,6 @@ table{
   text-align: left;
   padding-bottom: 50px;
   padding-top: 10px;
-  padding-left: 30%;
 }
 
 .contentjakt a:hover{
@@ -225,8 +227,9 @@ table{
 }
 
 .contentjakt p{
-  width: 70%;
+  width: auto;
   font-size: 20px;
+
 }
 
 /*Resten*/
