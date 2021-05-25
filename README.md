@@ -52,3 +52,18 @@ Hemsidan har även testats på google chrome, microsoft edge och mozilla firefox
 Under programeringens gång har riktlinjer försökt följas, och har även manuellt testats. Hemsidan har även testats genom [Powermapper](https://try.powermapper.com/demo/Report/d801fa2a-ae5f-49db-b33d-6f93ab87ad96), som validerar, testar och ser till så att sidan uppfyller standards, samt testar tillgänglighet. Många fel hittades genom powermapper, men dessa jobbades bort och löstes. Nu återstår bara två problem, vilket är att internet explorer inte har css grid egenskapen, vilket inte riktigt kan lösas då hela sidan är baserad på css grid, samt att sidans länkar är för långa, vilket inte går att ändras då jag använder github pages som webbhotel, och jag inte har ett eget custom domain namn. Sidan har även simulerats genom [Browserstack](https://www.browserstack.com/), för att testa så att den fungerar på olika sidor och browsers.
 
 ## Upphovsrätt och lagar
+
+Upphovsrätt betyder att den som skapar ett verk av något slag har rätten att bestämma hur och var detta verk används. Upphovsrätt uppstår så fort du skapar något originellt, och gäller fram tills 70 år efter din död. Källa[Fortnox.se](https://www.fortnox.se/fortnox-foretagsguide/ekonomisk-ordlista/upphovsratt/)
+
+På denna hemsida används endast information från wikipedia, och vid ett fall [Jakttider.se](https://jakttider.jagarnasriksforbund.se/) som man härledes till om man går in på sidan "Copyright". Bilder har använts med samtycke av Torleif Nilsson, och namn och mail har med samtycke skrivits på "Copyright" sidan. 
+
+Vad detta betyder är att du som skapar något alltid har rätt att bestämma var och hur det får användas, samt har rättighet till att du blir angiven som upphovsman, och att du har en ekonomisk rätt till verket, vilket betyder att du har rätt till ersättning om det skulle vara så att verket används inom försäljning och för kommersiella bruk. 
+
+### Personers namn
+
+
+
+Bilder
+
+## Tredjepartskod
+
