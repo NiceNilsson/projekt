@@ -2,7 +2,7 @@
 
 ## Sammanfattning
 
-Detta projekt är för en hemsida vars syfte är att informera jägare och vuxna fritidsuppskattare om ett utval av sveriges viltdjur. Projektet inleddes 2021-03-22, och koden blev klar 2021-05-23, alltså ungefär 2 månaders tid från idé till färdig produkt. Hela projektets gång går att följa i dess dagbok, som ligger under wiki på dess github-sida. Projektet inleddes med planering, och gick sedan över till att få en passande layout. Layouten har testats och tagit emot kritik så att den blev så bra som möjligt.  Layouten var klar i stora drag efter första månaden av arbete, och content blev klar under andra delen av arbetet. Avslutningsvis validerades och finlirades sidan, samt testades genom simulering. Bilder kom med tillåtelse från Torleif Nilsson, viltfotograf. 
+Detta projekt är för en hemsida vars syfte är att informera jägare och vuxna fritidsuppskattare om ett utval av sveriges vilt. Projektet inleddes 2021-03-22, och koden blev klar 2021-05-23, alltså ungefär 2 månaders tid från idé till färdig produkt. Hela projektets gång går att följa i dess dagbok, som ligger under wiki på dess github-sida. Projektet inleddes med planering, och gick sedan över till att få en passande layout. Layouten har testats och tagit emot kritik så att den blev så bra som möjligt.  Layouten var klar i stora drag efter första månaden av arbete, och content blev klar under andra delen av arbetet. Avslutningsvis validerades och finlirades sidan, samt testades genom simulering. Bilder kom med tillåtelse från Torleif Nilsson, viltfotograf. 
 
 
 ## Planering
@@ -13,7 +13,7 @@ Första planeringen av hemsidan på stor skärm:
 Slutgiltiga versionen av sidan på stor skärm:
 ![alt text]()
 
-Som det syns så är slutsatsen rätt så lik planeringen, men inte exakt. Navbaren dras inte ned och upp, utan är statisk, och istället finns det en sidebar som används för att röra sig runt på sidan utöver ordinarie länkar. När man hovrar över bilderna kommer ingen dropdown meny, utan bildan markeras bara och texten lyser grön. Detta eftersom jag upplevde att dropdown menyer skulle bli jobbigt för användaren om man t.ex. drog musen över flera bilder samtidigt, och alla dessa skulle blinka till och text skulle komma upp. Det finns även en footer. 
+Som det syns så är slutsatsen rätt så lik planeringen, men inte exakt. Navbaren dras inte ned och upp, utan är statisk, och istället finns det en sidebar som används för att röra sig runt på sidan utöver ordinarie länkar. När man hovrar över bilderna kommer ingen dropdown meny, utan bildan markeras bara och texten lyser grön. Detta eftersom jag upplevde att dropdown menyer skulle bli jobbigt för användaren om man t.ex. drog musen över flera bilder samtidigt, och alla dessa skulle blinka till och text skulle komma upp. Det finns även en footer. I framtiden bör jag dock gå tillbaka och ändra planeringen efter att jag reviderar den, och inte endast revidera planeringen i mitt huvud. Detta fungerar ok då jag arbetar själv, men skulle det vara så att jag jobbar på ett projekt med flera andra personer bör även de få veta hur planeringen ändras så de inte förändrar mina ändringar och det blir mer jobb.
 
 ## Innehåll och navigering
 
@@ -55,15 +55,26 @@ Under programeringens gång har riktlinjer försökt följas, och har även manu
 
 Upphovsrätt betyder att den som skapar ett verk av något slag har rätten att bestämma hur och var detta verk används. Upphovsrätt uppstår så fort du skapar något originellt, och gäller fram tills 70 år efter din död. Källa[Fortnox.se](https://www.fortnox.se/fortnox-foretagsguide/ekonomisk-ordlista/upphovsratt/)
 
+Upphovsrätt betyder att du som skapar något alltid har rätt att bestämma var och hur det får användas, samt har rättighet till att du blir angiven som upphovsman, och att du har en ekonomisk rätt till verket, vilket betyder att du har rätt till ersättning om det skulle vara så att verket används inom försäljning och för kommersiella bruk. 
+
 På denna hemsida används endast information från wikipedia, och vid ett fall [Jakttider.se](https://jakttider.jagarnasriksforbund.se/) som man härledes till om man går in på sidan "Copyright". Bilder har använts med samtycke av Torleif Nilsson, och namn och mail har med samtycke skrivits på "Copyright" sidan. 
 
-Vad detta betyder är att du som skapar något alltid har rätt att bestämma var och hur det får användas, samt har rättighet till att du blir angiven som upphovsman, och att du har en ekonomisk rätt till verket, vilket betyder att du har rätt till ersättning om det skulle vara så att verket används inom försäljning och för kommersiella bruk. 
+1 §   Näringsidkare får icke vid marknadsföring av vara, tjänst eller annan nyttighet använda framställning i vilken annans namn eller bild utnyttjas utan dennes samtycke. Med namn jämställs annan beteckning som klart utpekar viss person. [Riksdagen.se](https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/lag-1978800-om-namn-och-bild-i-reklam_sfs-1978-800)
 
-### Personers namn
+Straffet för att bryta denna lag kan vara böter, skadestånd, tvingad förändring av reklam, tjänst eller vara för att utlämna namn och bild.
 
+Ett fall då någon blivit fälld för detta är när en bloggare användes annans bild i sin blogg utan tillåtelse från upphovsrättsmannen, och genom att göra den tillgänglig till allmänheten gjorde sig bloggaren skyldig till upphovsrättsintrång.[ktnt.se](https://www.kntnt.se/vad-galler-for-anvandning-av-bilder-pa-internet/18509)
 
+### Egna tankar och problematik
 
-Bilder
+I mitt fall gäller inte några av dessa lagar, och det uppstår inte så mycket problem. Men hade det varit så att min hemsida handlade om stadsarkitektur t.ex. så måste jag vara försiktig då vid bildtagning kanske jag fick med andra personers ansikte, eller annan identifierande information som reg-skyltar. I detta fall skulle jag ha två val, antingen redigera bilderna och sudda ut ansikte och identifierande information, eller fråga människorna i bilden om de tillåter mig att använda deras bilder. Detta kanske inte är en möjlighet när man kan ha 12 bilder, varav varje bild har 30+ människor i sig, och därmed blir det första valet mer attraktivt. Jag har ju såklart alltid valet att använda deras ansikte utan att fråga, men då kan det bli problem med lagar som nämnts under "Upphovsrätt och lagar", och det är inte heller så lockande.
+
+Mina egna tankar runt upphovsrätt är att det är bra att människor har rättighet att äga sina bilder, lite som på samma sätt en konstnär äger de konstverk de skapar, bör en onlinekonstnär eller fotograf äga sina egna konstverk. Jag anser dock att en för expansiv upphovsrätt kan leda till förluster i kulturarvet, då människor kan säga sig äga saker som bör vara tillåtet för alla att se och använda. Om t.ex. ett livsräddande vaccin skulle komma ut tror jag dock att alla borde få information hur man producerar och återskapar det, istället för att någon kan tjäna grova pengar på att sälja det med grovt inflaterade priser då de har monopol på det.
+
+Det är helt enkelt en gråzon, men jag tycker det i allmänhet är bra med upphovsrätt, och hur det blir allmän ägo efter 70 år av en persons död.
 
 ## Tredjepartskod
 
+Den kod jag använt är då jag skapat sidan är endast [w3schools.com](https://www.w3schools.com/howto/howto_js_collapse_sidebar.asp) guide på hur man skapar en collapsed sidebar, och där gick jag igenom koden och följde guiden, så jag vet vad för kod det är och vad den gör, samt att den inte är skadlig. 
+
+Faran med att använda annans kod, speciellt då man bara copy/pastar 
