@@ -71,10 +71,24 @@ I mitt fall gäller inte några av dessa lagar, och det uppstår inte så mycket
 
 Mina egna tankar runt upphovsrätt är att det är bra att människor har rättighet att äga sina bilder, lite som på samma sätt en konstnär äger de konstverk de skapar, bör en onlinekonstnär eller fotograf äga sina egna konstverk. Jag anser dock att en för expansiv upphovsrätt kan leda till förluster i kulturarvet, då människor kan säga sig äga saker som bör vara tillåtet för alla att se och använda. Om t.ex. ett livsräddande vaccin skulle komma ut tror jag dock att alla borde få information hur man producerar och återskapar det, istället för att någon kan tjäna grova pengar på att sälja det med grovt inflaterade priser då de har monopol på det.
 
-Det är helt enkelt en gråzon, men jag tycker det i allmänhet är bra med upphovsrätt, och hur det blir allmän ägo efter 70 år av en persons död.
+Det är helt enkelt en gråzon, men jag tycker det i allmänhet är bra med upphovsrätt, och hur det blir allmän ägo 70 år efter en persons död.
 
 ## Tredjepartskod
 
 Den kod jag använt är då jag skapat sidan är endast [w3schools.com](https://www.w3schools.com/howto/howto_js_collapse_sidebar.asp) guide på hur man skapar en collapsed sidebar, och där gick jag igenom koden och följde guiden, så jag vet vad för kod det är och vad den gör, samt att den inte är skadlig. 
 
-Faran med att använda annans kod, speciellt då man bara copy/pastar utan att faktiskt läsa igen
+Faran med att använda annans kod, speciellt då man bara copy/pastar utan att faktiskt läsa igenomen koden, eftersom den kod man kopierar kan innehålla skadlig kod som kan samla information om servern, DDOS:a sidan eller göra så att webbplatsen inte fungerar. Detta är extra viktigt då man har kunder som lämnar ut känslig information till din sida, och du har ett ansvar att skydda informationen.
+
+## Val av webbhotel
+
+Vid val av webbhotel är det viktigt att man väljer ett bra, pålitligt webbhotel, av många anledningar. För det första, är det viktigt att sidan är snabb att använda, och att den har en hög uptime. Det är inge kul om din sida inte går att kolla på halva tiden. Det blir även inge kul då din sida inte kommer att rekomenderas av googles algoritmer. För vem kollar verkligen på den andra sidan av google?
+
+Man bör även se till så att sidan har bra nivå av lagring som passar din egen sida. En annan fallgrop med webbhotell är att vissa av dem har en månaktlig traffikgräns, som gör att du antingen måste betala mer då gränsen överskrids, eller bara sluta att visa din sida.
+
+En av de viktigaste sakerna med att välja webbhotel är att hotelet ska vara pålitligt, samt försäkra dig och dina kunder att er information är säker. Man bör även se till att hotelet har bra customer support. 
+
+[rockcontent.com](https://rockcontent.com/blog/how-to-choose-a-web-host/)
+
+## Teckenkodning
+
+UTF-8 används då det kan supporta många språk och är effektivt på att spara tecken. Problem som kan uppstå då man inte använder UTF-8 är att sidan blir svårläslig för utlänningar som försöker läsa t.ex. "Ä", men istället får de &.#228; (ignorera punkten mellan & och #, måste ha så annars blir det bara ett Ä). Sidan kan även bli långsam om man inte använder UTF-8.
