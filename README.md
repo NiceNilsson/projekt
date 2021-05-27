@@ -93,9 +93,9 @@ En av de viktigaste sakerna med att välja webbhotel är att hotelet ska vara p�
 
 UTF-8 används då det kan supporta många språk och är effektivt på att spara tecken. Problem som kan uppstå då man inte använder UTF-8 är att sidan blir svårläslig för utlänningar som försöker läsa t.ex. "Ä", men istället får de &.#228; (ignorera punkten mellan & och #, måste ha så annars blir det bara ett Ä). Sidan kan även bli långsam om man inte använder UTF-8. Eftersom datorer går utefter ettor och nollor som många hört är det möjligt att göra sidor och datorer snabbare genom teckenkodning. A får ju blir ju 001, B blir 010 och C blir 0111. Skulle man nu göra såhär för varje tecken i världen skulle det betyda att vissa skulle vara 101101101, vilket betyder att vi skulle kräva mycket fler bitar än vad vi egentligen behöver. UTF-8 använder istället något som kallas variabel teckenlängd, vilket gör att alla tecken inte kräver lika mycket bitar. Om man använder UTF-8 blir det även lättare för utvecklaren, då man inte behöver skriva &.#228 varje gång man vill ha ett Ä utan detta översätts direkt.
 
-Problem kan uppstå när någon försöker att läsa sidan enligt en annan standard än UTF-8. Detta problem kan lösas på två sätt. Antingen så använder alla datorer i världen samma sätt, eller så berättar datorer för varandra vad för standard de använder, och på så vis tvingar andra datorer att använda samma sätt. Detta är vad:
+Problem kan uppstå när någon försöker att läsa sidan enligt en annan standard än UTF-8. Detta problem kan lösas på två sätt. Antingen så använder alla datorer i världen samma sätt, eller så berättar datorer för varandra vad för standard de använder, och på så vis tvingar andra datorer att använda samma sätt. Detta är vad denna kod gör:
 
 ```html
 	<meta charset="UTF-8">
-
-gör. Detta är varför det är så viktigt att vi har med just den koden i headern, för annars blir det fel och ÅÄÖ ser inte ut som de ska.
+```
+Detta är varför det är så viktigt att vi har med just den koden i headern, för annars blir det fel och ÅÄÖ ser inte ut som de ska.
