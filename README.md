@@ -13,7 +13,7 @@ Första planeringen av hemsidan på stor skärm:
 Slutgiltiga versionen av sidan på stor skärm:
 ![alt text](Planering/Webbsidaslutsats.PNG)
 
-Som det syns så är slutsatsen rätt så lik planeringen, men inte exakt. Navbaren dras inte ned och upp, utan är statisk, och istället finns det en sidebar som används för att röra sig runt på sidan utöver ordinarie länkar. När man hovrar över bilderna kommer ingen dropdown meny, utan bildan markeras bara och texten lyser grön. Detta eftersom jag upplevde att dropdown menyer skulle bli jobbigt för användaren om man t.ex. drog musen över flera bilder samtidigt, och alla dessa skulle blinka till och text skulle komma upp. Det finns även en footer. I framtiden bör jag dock gå tillbaka och ändra planeringen efter att jag reviderar den, och inte endast revidera planeringen i mitt huvud. Detta fungerar ok då jag arbetar själv, men skulle det vara så att jag jobbar på ett projekt med flera andra personer bör även de få veta hur planeringen ändras så de inte förändrar mina ändringar och det blir mer jobb.
+Som det syns så är slutsatsen rätt så lik planeringen, men inte exakt. Navbaren dras inte ned och upp, utan är statisk, och istället finns det en sidebar som används för att röra sig runt på sidan utöver ordinarie länkar. När man hovrar över bilderna kommer ingen dropdown meny, utan bildan markeras bara och texten lyser grön. Detta eftersom jag upplevde att dropdown menyer skulle bli jobbigt för användaren om man t.ex. drog musen över flera bilder samtidigt, och alla dessa skulle blinka till och text skulle komma upp. Det finns även en footer. I framtiden bör jag dock gå tillbaka och ändra planeringen efter att jag reviderar den, och inte endast revidera planeringen i mitt huvud. Detta fungerar ok då jag arbetar själv, men skulle det vara så att jag jobbar på ett projekt med flera andra personer bör även de få veta hur planeringen ändras så de inte förändrar mina ändringar och det blir mer jobb. Mer information om planering finns under "Planering och länkar" wikin på github.
 
 ## Innehåll och navigering
 
@@ -77,7 +77,7 @@ Det är helt enkelt en gråzon, men jag tycker det i allmänhet är bra med upph
 
 Den kod jag använt är då jag skapat sidan är endast [w3schools.com](https://www.w3schools.com/howto/howto_js_collapse_sidebar.asp) guide på hur man skapar en collapsed sidebar, och där gick jag igenom koden och följde guiden, så jag vet vad för kod det är och vad den gör, samt att den inte är skadlig. 
 
-Faran med att använda annans kod, speciellt då man bara copy/pastar utan att faktiskt läsa igenomen koden, eftersom den kod man kopierar kan innehålla skadlig kod som kan samla information om servern, DDOS:a sidan eller göra så att webbplatsen inte fungerar. Detta är extra viktigt då man har kunder som lämnar ut känslig information till din sida, och du har ett ansvar att skydda informationen.
+Faran med att använda annans kod, speciellt då man bara copy/pastar utan att faktiskt läsa igenomen koden, eftersom den kod man kopierar kan innehålla skadlig kod som kan samla information om servern, DDOS:a sidan eller göra så att webbplatsen inte fungerar. Detta är extra viktigt då man har kunder som lämnar ut känslig information till din sida, och du har ett ansvar att skydda informationen. Det är även värt att nämna att kod är skyddat under upphovsrätten som ett literärt verk, och man får inte kopiera hur som helst. I mitt fall är det dock ok, då det är en guide och jag berättar vart koden kommer ifrån, samt inte använder sidan för monetär vinst.
 
 ## Val av webbhotel
 
@@ -91,4 +91,11 @@ En av de viktigaste sakerna med att välja webbhotel är att hotelet ska vara p�
 
 ## Teckenkodning
 
-UTF-8 används då det kan supporta många språk och är effektivt på att spara tecken. Problem som kan uppstå då man inte använder UTF-8 är att sidan blir svårläslig för utlänningar som försöker läsa t.ex. "Ä", men istället får de &.#228; (ignorera punkten mellan & och #, måste ha så annars blir det bara ett Ä). Sidan kan även bli långsam om man inte använder UTF-8.
+UTF-8 används då det kan supporta många språk och är effektivt på att spara tecken. Problem som kan uppstå då man inte använder UTF-8 är att sidan blir svårläslig för utlänningar som försöker läsa t.ex. "Ä", men istället får de &.#228; (ignorera punkten mellan & och #, måste ha så annars blir det bara ett Ä). Sidan kan även bli långsam om man inte använder UTF-8. Eftersom datorer går utefter ettor och nollor som många hört är det möjligt att göra sidor och datorer snabbare genom teckenkodning. A får ju blir ju 001, B blir 010 och C blir 0111. Skulle man nu göra såhär för varje tecken i världen skulle det betyda att vissa skulle vara 101101101, vilket betyder att vi skulle kräva mycket fler bitar än vad vi egentligen behöver. UTF-8 använder istället något som kallas variabel teckenlängd, vilket gör att alla tecken inte kräver lika mycket bitar. Om man använder UTF-8 blir det även lättare för utvecklaren, då man inte behöver skriva &.#228 varje gång man vill ha ett Ä utan detta översätts direkt.
+
+Problem kan uppstå när någon försöker att läsa sidan enligt en annan standard än UTF-8. Detta problem kan lösas på två sätt. Antingen så använder alla datorer i världen samma sätt, eller så berättar datorer för varandra vad för standard de använder, och på så vis tvingar andra datorer att använda samma sätt. Detta är vad:
+
+```html
+	<meta charset="UTF-8">
+
+gör. Detta är varför det är så viktigt att vi har med just den koden i headern, för annars blir det fel och ÅÄÖ ser inte ut som de ska.
