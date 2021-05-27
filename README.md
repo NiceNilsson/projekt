@@ -8,10 +8,10 @@ Detta projekt är för en hemsida vars syfte är att informera jägare och vuxna
 ## Planering
 
 Första planeringen av hemsidan på stor skärm: 
-![alt text](planering/HighResLayout.PNG)
+![alt text](Planering/HighResLayout.PNG)
 
 Slutgiltiga versionen av sidan på stor skärm:
-![alt text]()
+![alt text](Planering/Webbsidaslutsats.PNG)
 
 Som det syns så är slutsatsen rätt så lik planeringen, men inte exakt. Navbaren dras inte ned och upp, utan är statisk, och istället finns det en sidebar som används för att röra sig runt på sidan utöver ordinarie länkar. När man hovrar över bilderna kommer ingen dropdown meny, utan bildan markeras bara och texten lyser grön. Detta eftersom jag upplevde att dropdown menyer skulle bli jobbigt för användaren om man t.ex. drog musen över flera bilder samtidigt, och alla dessa skulle blinka till och text skulle komma upp. Det finns även en footer. I framtiden bör jag dock gå tillbaka och ändra planeringen efter att jag reviderar den, och inte endast revidera planeringen i mitt huvud. Detta fungerar ok då jag arbetar själv, men skulle det vara så att jag jobbar på ett projekt med flera andra personer bör även de få veta hur planeringen ändras så de inte förändrar mina ändringar och det blir mer jobb.
 
@@ -36,10 +36,10 @@ Alla bilder har komprimerats genom [TinyPNG]((https://tinypng.com/).) för att g
 Hemsidan har även testats genom lighthouse. 
 
 Före bilder komprimerades såg lighthouse testet ut såhär:
-![alt text](Planering/subsidalighthouseföre.PNG)
+![Subsidalighthouseföre](Planering/subsidalighthouseföre.PNG)
 
 Efter bilder komprimerades såg lighthouse testet ut såhär:
-![alt text](Planering/subsidalighthouseefter.PNG)
+![Subsidalighthouseefter](Planering/subsidalighthouseefter.PNG)
 
 Alltså fick komprimeringen en effekt på hastigheten av sidan.
 
@@ -77,4 +77,4 @@ Det är helt enkelt en gråzon, men jag tycker det i allmänhet är bra med upph
 
 Den kod jag använt är då jag skapat sidan är endast [w3schools.com](https://www.w3schools.com/howto/howto_js_collapse_sidebar.asp) guide på hur man skapar en collapsed sidebar, och där gick jag igenom koden och följde guiden, så jag vet vad för kod det är och vad den gör, samt att den inte är skadlig. 
 
-Faran med att använda annans kod, speciellt då man bara copy/pastar 
+Faran med att använda annans kod, speciellt då man bara copy/pastar utan att faktiskt läsa igen
