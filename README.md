@@ -7,13 +7,17 @@ Detta projekt är för en hemsida vars syfte är att informera jägare och vuxna
 
 ## Planering
 
+Innan arbetet började krävdes det lite planering. Projektet inleddes med val av ämne. Jag hade några förslag, men sedan valde jag till sist att göra en sida om vilt, eftersom jag har en pappa som tar bilder på vilt, och jag då kan använda hans bilder. Jag gjorde en enkel planering till att börja med, som bestämde vad jag skulle jobba med varje vecka. Sedan skapade jag en första planering av hur sidan skulle se ut, se nedan. 
+
 Första planeringen av hemsidan på stor skärm: 
-![alt text](Planering/HighResLayout.PNG)
+![Planering](Planering/HighResLayout.PNG)
 
 Slutgiltiga versionen av sidan på stor skärm:
-![alt text](Planering/Webbsidaslutsats.PNG)
+![PlaneringEfter](Planering/Webbsidaslutsats.PNG)
 
 Som det syns så är slutsatsen rätt så lik planeringen, men inte exakt. Navbaren dras inte ned och upp, utan är statisk, och istället finns det en sidebar som används för att röra sig runt på sidan utöver ordinarie länkar. När man hovrar över bilderna kommer ingen dropdown meny, utan bildan markeras bara och texten lyser grön. Detta eftersom jag upplevde att dropdown menyer skulle bli jobbigt för användaren om man t.ex. drog musen över flera bilder samtidigt, och alla dessa skulle blinka till och text skulle komma upp. Det finns även en footer. I framtiden bör jag dock gå tillbaka och ändra planeringen efter att jag reviderar den, och inte endast revidera planeringen i mitt huvud. Detta fungerar ok då jag arbetar själv, men skulle det vara så att jag jobbar på ett projekt med flera andra personer bör även de få veta hur planeringen ändras så de inte förändrar mina ändringar och det blir mer jobb. Mer information om planering finns under "Planering och länkar" wikin på github.
+
+Se även dagboken på github för att läsa hela projektets gång.
 
 ## Innehåll och navigering
 
@@ -99,3 +103,9 @@ Problem kan uppstå när någon försöker att läsa sidan enligt en annan stand
 	<meta charset="UTF-8">
 ```
 Detta är varför det är så viktigt att vi har med just den koden i headern, för annars blir det fel och ÅÄÖ ser inte ut som de ska.
+
+## Vad kan ha gått bättre? Vad ska jag tänka på tills nästa gång?
+
+Jag ser detta som en väldigt positiv upplevelse, då det var första gången jag skapade min egen hemsida. Jag lärde mig mer om hur hemsidor fungerade, samt slipade mina HTML och CSS kunskaper, och lärde mig lite om JavaScript. Tills nästa gång kommer jag dock tänka på många saker. En av de främsta är att se till så att min mall är helt klar innan jag börjar kopiera den och skriva text, eftersom om jag märker att mallen helt plötsligt inte var validerad, måste jag då lägga väldigt mycket tid på att gå igenom varje sida för att ändra dem för hand. Denna tid kunde ha gått till att jobba på annat inom hemsidan. Jag ska även tänka på att komma igång med content tidigare, då det tog väldigt lång tid. För att kunna skriva klart mallen och samtidigt jobba på content innan jag börjar göra kopior kan jag skriva content i separata text filer. Nästa gång ska jag även fysiskt ändra på min planering istället för att bara göra det i huvudet, eftersom jag kanske jobbar med en medarbetare. 
+
+Som slutsats vill jag säga att jag är riktigt nöjd med resultatet, och sidan blev ungefär som jag tänkt mig, med vissa förbättringar. 
